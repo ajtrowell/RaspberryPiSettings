@@ -6,7 +6,7 @@ let mapleader = "," "used for custom functions
 :colorscheme elflord
 
 " Git Commit Help :
-autocmd Filetype gitcommit textwidth=72
+autocmd Filetype gitcommit set colorcolumn=72
 " autocmd Filetype gitcommit spell textwidth=72
 
 set ignorecase
