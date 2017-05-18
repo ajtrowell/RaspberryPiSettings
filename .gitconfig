@@ -23,3 +23,5 @@
 
         # Show ALL BRANCHES
         loga = log --branches --remotes --tags --graph --pretty=format:\"%C(yellow) %h %Cred %d %Creset - %an, %ar : %s\"
+[push]
+	default = matching
