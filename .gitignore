@@ -1,0 +1,7 @@
+*
+!.gitconfig
+!.bashrc
+!.vimrc
+
+!.gitignore
+!/.ssh/authorized_keys
