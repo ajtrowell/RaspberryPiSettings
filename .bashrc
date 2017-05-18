@@ -143,6 +143,10 @@ alias cdr='cd $cdmem'
 alias ebash='vim ~/.bashrc'
 alias sbash='source ~/.bashrc'
 
+# Rasbian Open File Explorer as root
+alias explore='gksu pcmanfm'
+alias play='omxplayer -r -o hdmi'
+
 # Change directory and list contents
 function cdl { 
     builtin cd "$@" && pwd && ls
